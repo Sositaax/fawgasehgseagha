@@ -14,8 +14,7 @@ const App: React.FC = () => {
   // 🖼️ YOUR PHOTO URL
   // Replace the link below with your own image link!
   // ==================================================================================
-  const imageUrl = "https://media.discordapp.net/attachments/773103472127508504/1452838010826653706/IMG_20251223_023551_306.jpg?ex=694b4456&is=6949f2d6&hm=25909b2111bf74a30bf33f2a014dbd59e5019b1eb81b4fc8096ad5f3b6a9aeb6&=&format=webp&width=688&height=1224";
-
+  import nuttyImage from "./assets/nutty.jpg";
   // ==================================================================================
   // ✍️ THE LETTER TEXT
   // Edit the words inside the backticks ( ` ) below to change the letter content.
@@ -128,7 +127,7 @@ Merry Christmas and Happy New Year, my love.`;
           isOpen={isOpen} 
           onToggle={toggleEnvelope} 
           message={message}
-          imageUrl={imageUrl}
+          imageUrl={nuttyImage}
         />
       </div>
 
