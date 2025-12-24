@@ -3,7 +3,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import Envelope from './components/Envelope.tsx';
 import Firework from './components/Firework.tsx';
 import Snow from './components/Snow.tsx';
-
+import imageUrl from './assets/nutty.jpg';
 const App: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [showFireworks, setShowFireworks] = useState(false);
