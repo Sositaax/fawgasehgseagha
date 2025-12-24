@@ -3,7 +3,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import Envelope from './components/Envelope.tsx';
 import Firework from './components/Firework.tsx';
 import Snow from './components/Snow.tsx';
-import imageUrl from './assets/nutty.jpg';
+
 const App: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [showFireworks, setShowFireworks] = useState(false);
@@ -14,7 +14,7 @@ const App: React.FC = () => {
   // 🖼️ YOUR PHOTO URL
   // Replace the link below with your own image link!
   // ==================================================================================
-  const imageUrl = "/nutty.jpg";
+  const imageUrl = "https://imgur.com/a/2wXV95a";
   // ==================================================================================
   // ✍️ THE LETTER TEXT
   // Edit the words inside the backticks ( ` ) below to change the letter content.
