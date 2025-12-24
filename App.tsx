@@ -14,7 +14,7 @@ const App: React.FC = () => {
   // 🖼️ YOUR PHOTO URL
   // Replace the link below with your own image link!
   // ==================================================================================
-  import nuttyImage from "./assets/nutty.jpg";
+  const imageUrl = "./assets/nutty.jpg";
   // ==================================================================================
   // ✍️ THE LETTER TEXT
   // Edit the words inside the backticks ( ` ) below to change the letter content.
@@ -127,7 +127,7 @@ Merry Christmas and Happy New Year, my love.`;
           isOpen={isOpen} 
           onToggle={toggleEnvelope} 
           message={message}
-          imageUrl={nuttyImage}
+          imageUrl={imageUrl}
         />
       </div>
 
