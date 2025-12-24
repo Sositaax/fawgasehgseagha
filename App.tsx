@@ -14,7 +14,7 @@ const App: React.FC = () => {
   // 🖼️ YOUR PHOTO URL
   // Replace the link below with your own image link!
   // ==================================================================================
-  const imageUrl = "./assets/nutty.jpg";
+  const imageUrl = "./nutty.jpg";
 
   // ==================================================================================
   // ✍️ THE LETTER TEXT
