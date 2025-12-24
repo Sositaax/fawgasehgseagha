@@ -15,6 +15,7 @@ const App: React.FC = () => {
   // Replace the link below with your own image link!
   // ==================================================================================
   const imageUrl = "./assets/nutty.jpg";
+
   // ==================================================================================
   // ✍️ THE LETTER TEXT
   // Edit the words inside the backticks ( ` ) below to change the letter content.
